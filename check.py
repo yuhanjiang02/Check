@@ -29,7 +29,7 @@ def upload_and_check_file():
             st.success("File name is correct.")
             # Perform further processing or analysis on the file here
         else:
-            st.error("Invalid file name. File name should start with a number and can contain letters, numbers, dashes, or underscores.")
+            st.error("Invalid file name. File name should start with a LabID number and end with _raw.xlsx.")
 
 # Run the function
 upload_and_check_file()
